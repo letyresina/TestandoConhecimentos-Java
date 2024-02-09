@@ -2,9 +2,10 @@ package br.com.fiap;
 
 public class TestandoConhecimentos {
 	public static void main(String[] args) {
-		System.out.println("Testando os conhecimentos em Java");
+		System.out.println("Testando os conhecimentos em Java \n");
 		
-		System.out.println("1. Explique Orientação à Objetos.");
+		System.out.println("1. Explique Orientação à Objetos. \n");
+		
 		System.out.println("Orientação à objetos seria uma forma de entender a complexidade do mundo"
 				+ " de maneira mais simples. Você abstrai, transformando em grupos, que possuem um "
 				+ "nome, atributos e metódos. Você entende completamente o problema antes de "
