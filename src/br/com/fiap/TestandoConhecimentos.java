@@ -23,12 +23,25 @@ public class TestandoConhecimentos {
 				+ " comum. A classe possui seus atributos com valores (que diferem entre si) e que" 
 				+ " tornam a classe ser o que é. Também possuem os metódos, que são os comportamentos" 
 				+ "que aquele objeto possui.");
+		System.out.println("Um exemplo clássico seria a própria Mulher que pode possuir atributos como"
+				+ " raça, etnia, altura, cor dos olhos e cor dos cabelos; em relação aos metódos," 
+				+ " simplificando, poderiam ser andar(), falar(), sentir() e maquiar().");
 		
 		System.out.println("4. Explique o que é abstração.");
-		System.out.println("");
+		System.out.println("Abstração seria a forma de descomplexar o objeto. Como exemplo usado" 
+				+ " anteriormente, Letícia, Sofia e Joana são pessoas com seus valores diferentes e relação aos"
+				+ " seus atributos. Mas todas elas são mulheres (nesse exemplo em específico). Mais ainda, poderia"
+				+ " abstrair/simplificar e dizer que todas da classe ser humano.");
 		
 		System.out.println("5. Explique o que é herança.");
-		System.out.println("");
+		System.out.println("Partindo do exemplo citado na questão anterior, que a abstração nos levaria"
+				+ " a Ser humano, teriam os atributos que os seres humanos possuem como raça, etnia," 
+				+ " altura, cor dos olhos e cor dos cabelos; em relação aos metódos, simplificando em algo"
+				+ " comum, poderiam ser andar(), falar() e sentir(). ");
+		System.out.println("A partir dessa ideia, poderíamos ter a herança de Homem e Mulher que,"
+				+ " herdando as características da classe ser humano, teriam alguns atributos e até mesmo" 
+				+ " metódos próprios, mas partindo da ideia que todos partem de um mesmo princípio, vulgo,"
+				+ " a mesma classe.");
 		
 		System.out.println("6. Explique o que é encapsulamento.");
 		System.out.println("");
