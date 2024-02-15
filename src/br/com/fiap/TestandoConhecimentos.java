@@ -44,7 +44,14 @@ public class TestandoConhecimentos {
 				+ " a mesma classe.");
 		
 		System.out.println("6. Explique o que é encapsulamento.");
-		System.out.println("");
+		System.out.println("Encapsulamento partiria do princípio de simplificar diferentes procedimentos"
+				+ " que podemos realizar em um algoritmo. Por exemplo, em um sistema de livraria, podemos" 
+				+ " cadastrar livros novos e consultar livros já anteriormente cadastrados. Ao invés de" 
+				+ " escrever a todo momento que desejamos cadastrar um livro novo o mesmo código, que iria"
+				+ " se repetir 300 vezes e consequentemente deixar o código sujo, podemos transformar isso" 
+				+ " em uma função, ou como definimos aqui, o encapsulamento. Isso valeria para o mesmo" 
+				+ " exemplo de consultar livros. Ao invés de ficarmos escrevendo o mesmo código diversas" 
+				+ " vezes, encapsulamos e transformamos em algo único e relativamente simples. ");
 		
 		System.out.println("7. Explique o que é polimorfismo.");
 		System.out.println("");
