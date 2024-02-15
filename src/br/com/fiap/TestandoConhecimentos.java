@@ -54,9 +54,25 @@ public class TestandoConhecimentos {
 				+ " vezes, encapsulamos e transformamos em algo único e relativamente simples. ");
 		
 		System.out.println("7. Explique o que é polimorfismo.");
-		System.out.println("");
+		System.out.println("Pode ser definido como algo que possui muitas formas. Através de um único" 
+				+ " nome, gerar diversos comportamentos diferentes. Como por exemplo, o verbo abrir." 
+				+ " Podemos abrir uma caixa de papelão que chegou de uma entrega, podemos abrir uma janela"
+				+ " para entrar um ar, abrir uma conta bancária para depositarmos dinheiro ou abrir o" 
+				+ " caderno para escrever. Do mesmo verbo, se originou diferentes formas do que podemos"
+				+ " realizar.");
 		
 		System.out.println("8. Quais são os principais tipos de polimorfismo? Explique cada um deles.");
-		System.out.println("");
+		System.out.println("Os dois principais tipos de polimorfismo são:");
+
+		System.out.println("- Sobrescrita: sobreescrevendo. Costuma acontecer em casos de herança." 
+				+ " Como exemplo, todo carro tem pedal, mas em carros básicos a potencialidade é diferente"
+				+ " que em carros luxuosos. O metódo acelerador nesse caso, no objeto carro, iria se herdar"
+				+ " em CarroLuxuoso e CarroBásico, mas o comportamento do metódo acelerador(). Nesse caso," 
+				+ " é necessário escrever o que herdou, como se estivesse sobreescrevendo o metódo da" 
+				+ " classe-mãe (carro). Possui o mesmo nome mas com comportamentos diferentes.");
+				
+		System.out.println("- Sobrecarga: quando dois ou + metódos possuem o mesmo nome, entretanto," 
+				+ " assinaturas diferentes. Como exemplo, os metódos são: exibir(texto) e"
+				+ " exibir(texto, numero). Assinatura seriam esses parametros");
 	}
 }
